@@ -959,10 +959,12 @@ body {
     width: 80%;
     width: 60vw;
     text-align: center;
+    margin-left: 40px;
   }
   .lefts img {
     width: 300px;
     text-align: center;
+    margin-left: 40px;
   }
   .lem {
     font-size: 18px;
@@ -998,5 +1000,20 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+  }
+  .lant input {
+    margin-left: 30px;
+  }
+  .bottom {
+    margin-right: 20px;
+  }
+  .tops {
+    margin-left: 20px;
+  }
+  .rightsid {
+    width: 150%;
+  }
+  .zoo img {
+    width: 100%;
   }
 }
