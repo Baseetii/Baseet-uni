@@ -144,6 +144,8 @@ body {
   gap: 20px;
   padding: 20px;
   align-items: center;
+  /* Added a width of 100% here to make sure levy is spanning accross its parent element */
+  width: 100%;
 }
 .bleep .contain .levy .tops {
   padding: 10px;
@@ -158,6 +160,8 @@ body {
   display: flex;
   flex-direction: row;
   gap: 15px;
+  /* Added a width of 100% here to make sure levy is spanning accross its parent element */
+  width: 100%;
 }
 .bottom .lst {
   flex-direction: column;
@@ -240,11 +244,15 @@ body {
     height: 100%; */
 }
 .bozz .nipe {
-  width: 50vw;
+  /* changed this to 100% instead of fixed width like 50vw */
+  width: 100%;
   background-color: lightskyblue;
   display: flex;
   flex-direction: column;
   padding: 22px;
+}
+.bozz .zoo {
+  width: 100%;
 }
 .bozz .nipe .beln {
   margin-top: 10px;
@@ -265,7 +273,8 @@ body {
 }
 .bozz .nipe .vidss .mon {
   padding: 10px;
-  width: 600px;
+  /* changed this from fixed width of 600px to 100% */
+  width: 100%;
 }
 .trill {
   border-radius: 99999999999999999999px;
@@ -303,12 +312,15 @@ body {
   color: gray;
   font-size: 29px;
   font-weight: 800;
-  padding-right: 800px;
+  /* removed the padding right 800px as you don't need it when we have already applied justify content to the parent below  */
 }
-.bost .contain .listen .num {
+.bost .contain .listen {
   display: flex;
   flex-direction: row;
   padding: 20px;
+  /* Added justify-content: space-between and a width of 100%, when working with flex-box, you will find that always taking note of the width and heigth relationship of the parent and children elements would save you a lot of stress */
+  width: 100%;
+  justify-content: space-between;
 }
 .des .tr1 {
   display: flex;
@@ -415,6 +427,7 @@ body {
 .cry {
   display: flex;
   flex-direction: row;
+  border-bottom: 1px black dotted;
 }
 .greats {
   font-size: 24px;
@@ -448,6 +461,7 @@ body {
 .jane {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 
 .lant {
@@ -464,9 +478,7 @@ body {
   margin-top: 10px;
   color: azure;
 }
-.cry {
-  border-bottom: 1px black dotted;
-}
+
 .ops {
   display: flex;
   flex-direction: column;
@@ -487,6 +499,9 @@ body {
 }
 .logofo {
   color: darkblue;
+}
+.lead .contain .bopp {
+  display: flex;
 }
 
 .lead .contain .bopp .lives2:hover {
