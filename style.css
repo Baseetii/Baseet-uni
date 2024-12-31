@@ -915,6 +915,10 @@ body {
   margin-right: 10px;
 }
 @media screen and (max-width: 450px) {
+  .contain {
+    /* increased the width of our contain class from 80% to 95% on smaller screens  */
+    width: 95%;
+  }
   .lead .contain .bopp {
     display: none;
   }
@@ -980,5 +984,19 @@ body {
     width: 100%;
   }
   .bleep .contain .levy .bottom .lst {
+  }
+  .bozz {
+    flex-direction: column;
+  }
+  .des {
+    flex-direction: column;
+  }
+  .nopp {
+    flex-direction: column;
+  }
+  .cry {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
   }
 }
