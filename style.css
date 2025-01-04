@@ -321,6 +321,7 @@ body {
 .des .tr1 {
   display: flex;
   flex-direction: column;
+  width: 100%;
 }
 .kia {
   font-size: 21px;
@@ -336,6 +337,7 @@ body {
 .des {
   display: flex;
   flex-direction: row;
+  width: 100%;
 }
 .tr1 img {
   padding: 10px;
@@ -915,6 +917,7 @@ body {
     /* increased the width of our contain class from 80% to 95% on smaller screens  */
     width: 95%;
   }
+
   .lead .contain .bopp {
     display: none;
   }
@@ -995,14 +998,7 @@ body {
     align-items: center;
     text-align: center;
   }
-  .lead .contain img {
-    width: 500px;
-    margin-bottom: 20px;
-  }
-  .lead .contain {
-    margin-bottom: 100px;
-    margin-top: 100px;
-  }
+
   .boser {
     width: 250%;
     height: 50%;
