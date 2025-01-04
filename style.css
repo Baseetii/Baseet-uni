@@ -217,15 +217,13 @@ body {
   overflow: hidden;
 }
 .bottom .rst:hover img {
-  object-fit: cover;
-  /* width: 650px;
-    height: 350px; */
+  object-fit: contain;
+
   transform: scale(1.2);
 }
 .bottom .rst img {
   transition: all 1.5s;
-  /* width: 100%;
-    height: 100%; */
+  width: 100%;
 }
 .bottom .lst .blah {
   width: 100%;
@@ -234,14 +232,12 @@ body {
 }
 .bottom .lst:hover img {
   object-fit: cover;
-  /* width: 650px;
-    height: 350px; */
+
   transform: scale(1.2);
 }
 .bottom .lst img {
   transition: all 1.5s;
-  /* width: 100%;
-    height: 100%; */
+  width: 100%;
 }
 .bozz .nipe {
   /* changed this to 100% instead of fixed width like 50vw */
@@ -959,12 +955,10 @@ body {
     width: 80%;
     width: 60vw;
     text-align: center;
-    margin-left: 40px;
   }
   .lefts img {
     width: 300px;
     text-align: center;
-    margin-left: 40px;
   }
   .lem {
     font-size: 18px;
@@ -1000,20 +994,5 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
-  }
-  .lant input {
-    margin-left: 30px;
-  }
-  .bottom {
-    margin-right: 20px;
-  }
-  .tops {
-    margin-left: 20px;
-  }
-  .rightsid {
-    width: 150%;
-  }
-  .zoo img {
-    width: 100%;
   }
 }
