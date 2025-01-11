@@ -280,7 +280,7 @@ body {
   margin: 9px;
 }
 .bozz .zoo img {
-  width: 50vw;
+  width: 100%;
   height: 75vh;
 }
 .bozz {
@@ -565,10 +565,10 @@ body {
 .coo .cruz input {
   border: gray 1px solid;
   padding: 10px;
-  width: 1020px;
+  width: 100%;
 }
 .cruz {
-  width: 75%;
+  width: 100%;
 }
 .kooy .contain {
   display: flex;
@@ -1003,7 +1003,7 @@ body {
     background: url(https://media.istockphoto.com/id/1201405342/photo/happy-university-student-reading-in-library.jpg?s=612x612&w=0&k=20&c=745LAVcjTugEdz0AbXp1Hra6oafpXL80sH5vu04LD24=)
       no-repeat center center;
     height: 40vh;
-    width: 251vw;
+    width: 100%;
     background-size: cover;
   }
   .kooy .contain {
@@ -1012,11 +1012,11 @@ body {
     text-align: center;
   }
   .whole .contain {
-    width: 130vw;
+    width: 100%;
   }
 
   .ops {
-    width: 251vw;
+    width: 100%;
     font-size: 37px;
     margin-bottom: 20px;
   }
