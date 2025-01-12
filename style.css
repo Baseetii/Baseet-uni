@@ -955,8 +955,7 @@ body {
     flex-direction: column;
   }
   .rightz {
-    width: 80%;
-    width: 60vw;
+    width: 100%;
     text-align: center;
   }
   .lefts img {
@@ -1033,5 +1032,33 @@ body {
   .nooo {
     font-size: 35px;
     width: 100%;
+  }
+  .whole .contain {
+    text-align: center;
+  }
+  .ttt {
+    display: flex;
+    flex-direction: column;
+  }
+  .whyll {
+    padding: 30px;
+    background-color: burlywood;
+    width: 95vw;
+    position: relative;
+  }
+  .zayns {
+    margin-left: 25px;
+    margin-right: 15px;
+    gap: 25px;
+    width: 85%;
+    margin-top: 28px;
+  }
+  .vinn img {
+    width: 95vw;
+    height: 350px;
+  }
+  .vett input {
+    padding: 15px;
+    width: 205px;
   }
 }
