@@ -1062,3 +1062,172 @@ body {
     width: 205px;
   }
 }
+.farmer {
+  font-size: 25px;
+  font-style: italic;
+  color: green;
+}
+.barss {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: green;
+}
+.logo {
+  font-size: 25px;
+  font-weight: bold;
+}
+.ok ul {
+  display: flex;
+  font-weight: bold;
+}
+.ok ul li {
+  margin-left: 20px;
+}
+.ok ul li a {
+  color: white;
+  font-size: 15px;
+}
+.hero {
+  height: 400px;
+  background-color: blue;
+  background: url("https://plus.unsplash.com/premium_photo-1670249665407-772caeaabf95?fm=jpg&q=60&w=3000&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NXx8aGFuZHMlMjB0eXBpbmd8ZW58MHx8MHx8fDA%3D");
+  background-size: cover;
+  background-position: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: white;
+}
+.hero .man {
+  width: 400px;
+  height: 400px;
+}
+.hero h1 {
+  font-size: 40px;
+  margin-bottom: 13px;
+  color: black;
+}
+.hero p {
+  margin-bottom: 15px;
+}
+hero-btns button {
+  padding: 12px 30px;
+  border: none;
+  cursor: pointer;
+  font-weight: bold;
+  margin: 0 5px;
+}
+
+.btn-blue {
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  size: 15px;
+}
+.btn-white {
+  background-color: white;
+  color: black;
+  padding: 20px;
+}
+.features {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: #f9f9f9;
+}
+
+.features h2 {
+  font-size: 28px;
+  margin-bottom: 10px;
+}
+.section-dezz {
+  color: grey;
+  margin-bottom: 50px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ul.list ul:nth-child(3) {
+  color: aqua;
+}
+h1.fire {
+  color: red;
+}
+.fire1 {
+  color: yellow;
+}
+.fire2 {
+  color: red;
+}
+.sane {
+  font-size: 500px;
+}
+.rayo {
+  color: red;
+}
+.fine {
+  color: blueviolet;
+}
+.coprate {
+  padding: 15px;
+  margin: 10px;
+  font-size: 10px;
+  background-color: aqua;
+}
+.walk {
+  font-size: 300px;
+}
+.btn-white {
+}
+.tri {
+  color: aquamarine;
+}
+.oddball {
+  font-size: 40pxß;
+}
+.monkey {
+  color: orange;
+}
+.money {
+  color: orange;
+}
+.okl {
+  font-size: 100px;
+}
+.hilarious {
+  color: darkred;
+}
+.feature-grii {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.feature-item {
+  flex: 1;
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 20px;
+  color: white;
+  font-size: 24px;
+}
+
+.feature-it h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.feature-it p {
+  font-size: 14px;
+  color: grey;
+}
